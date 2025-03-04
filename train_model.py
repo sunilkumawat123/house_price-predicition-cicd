@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 
 # Load dataset
 data = pd.read_csv('house_prices.csv')  # Assume dataset exists
-X = data[['sqft', 'bedrooms', 'bathrooms']]
+X = data[['SqFt', 'Bedrooms', 'Bathrooms']]
 y = data['price']
 
 # Train-test split
